@@ -1,0 +1,3 @@
+input_data: input.txt
+method: func
+output_data: output.txt
