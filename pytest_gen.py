@@ -26,6 +26,8 @@ def get_configuration(fname='init.yaml') -> {}:
 
 
 class StepikTestGenerator:
+    __stream_input_test = None
+    __stream_results = None
 
     # читаем из файлов
     def __init__(self, fname_input_test, fname_results, method):
